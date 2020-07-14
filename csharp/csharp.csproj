@@ -65,6 +65,17 @@
     <Compile Include="GildedRose.cs" />
     <Compile Include="GildedRoseTest.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="ItemUpdaters\AgedBrieUpdater.cs" />
+    <Compile Include="ItemUpdaters\BackstagePassUpdater.cs" />
+    <Compile Include="ItemUpdaters\ConjuredUpdater.cs" />
+    <Compile Include="ItemUpdaters\ItemUpdater.cs" />
+    <Compile Include="ItemUpdaters\NormalUpdater.cs" />
+    <Compile Include="ItemUpdaters\SulfurasUpdater.cs" />
+    <Compile Include="MyTests\AgedBrieTests.cs" />
+    <Compile Include="MyTests\BackstagePassTests.cs" />
+    <Compile Include="MyTests\ConjuredTests.cs" />
+    <Compile Include="MyTests\NormalItemTests.cs" />
+    <Compile Include="MyTests\SulfurasTests.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
