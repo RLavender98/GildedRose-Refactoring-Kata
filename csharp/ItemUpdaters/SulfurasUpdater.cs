@@ -1,8 +1,8 @@
 ﻿namespace csharp
 {
-    public class SulfurasUpdater:ItemUpdater
+    public class SulfurasUpdater:IItemUpdater
     {
-        public override void UpdateItem(Item item)
+        public void UpdateItem(Item item)
         {
             //don't do anything because legendary item
         }

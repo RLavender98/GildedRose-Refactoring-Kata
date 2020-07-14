@@ -1,8 +1,8 @@
 ﻿namespace csharp
 {
-    public class ConjuredUpdater:ItemUpdater
+    public class ConjuredUpdater:IItemUpdater
     {
-        public override void UpdateItem(Item item)
+        public void UpdateItem(Item item)
         {
             foreach (int dummy in new[] {1, 2})
             {

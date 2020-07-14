@@ -69,6 +69,7 @@
     <Compile Include="ItemUpdaters\BackstagePassUpdater.cs" />
     <Compile Include="ItemUpdaters\ConjuredUpdater.cs" />
     <Compile Include="ItemUpdaters\ItemUpdater.cs" />
+    <Compile Include="ItemUpdaters\ItemUpdaterFactory.cs" />
     <Compile Include="ItemUpdaters\NormalUpdater.cs" />
     <Compile Include="ItemUpdaters\SulfurasUpdater.cs" />
     <Compile Include="MyTests\AgedBrieTests.cs" />

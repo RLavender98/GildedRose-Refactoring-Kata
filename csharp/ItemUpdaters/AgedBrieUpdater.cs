@@ -1,8 +1,8 @@
 ﻿namespace csharp
 {
-    public class AgedBrieUpdater:ItemUpdater
+    public class AgedBrieUpdater:IItemUpdater
     {
-        public override void UpdateItem(Item item)
+        public void UpdateItem(Item item)
         {
             if (item.Quality < 50)
                 item.Quality += 1;

@@ -1,7 +1,7 @@
 ﻿namespace csharp
 {
-    public abstract class ItemUpdater
+    public interface IItemUpdater
     {
-        public abstract void UpdateItem(Item item);
+        void UpdateItem(Item item);
     }
 }

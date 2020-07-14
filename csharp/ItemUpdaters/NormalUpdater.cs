@@ -1,8 +1,8 @@
 ﻿namespace csharp
 {
-    public class NormalUpdater:ItemUpdater
+    public class NormalUpdater:IItemUpdater
     {
-        public override void UpdateItem(Item item)
+        public void UpdateItem(Item item)
         {
             if (item.Quality > 0)
                 item.Quality -= 1;

@@ -2,9 +2,9 @@
 
 namespace csharp
 {
-    public class BackstagePassUpdater:ItemUpdater
+    public class BackstagePassUpdater:IItemUpdater
     {
-        public override void UpdateItem(Item item)
+        public void UpdateItem(Item item)
         {
             if (item.SellIn > 0 && item.Quality < 50)
                 item.Quality += 1;
